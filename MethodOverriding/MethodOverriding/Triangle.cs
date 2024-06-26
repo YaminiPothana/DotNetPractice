@@ -8,17 +8,17 @@ namespace MethodOverriding
 {
     class Triangle : Shape
     {
-    public int basee;
-    public int height;
-    public Triangle(int basee, int height)
-    {
-        this.basee = basee;
-        this.height = height;
-    }
-    public override void  getArea()
-    {
+        public int Basee;
+        public int Height;
+        public Triangle(int Basee, int Height)
+        {
+            this.basee = Basee;
+            this.height = Height;
+        }
+        public override void GetArea()
+        {
             Console.WriteLine("Area of Triangle :" + 0.5 * basee * height);
+        }
     }
-}
 
 }

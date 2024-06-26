@@ -1,5 +1,5 @@
 ﻿using System;
- 
+
 class Program
 
 {
@@ -28,7 +28,7 @@ class Program
 
             Console.Write("Enter your choice: ");
 
-            var choice = Console.ReadLine();
+            int choice = Console.Read();
 
             switch (choice)
 

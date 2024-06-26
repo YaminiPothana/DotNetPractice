@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace MethodOverriding
 {
-    class Rectangle: Shape
+    class Rectangle : Shape
     {
-    public double length;
-    public double width;
-    public Rectangle(double length, double width)
-    {
-        this.length = length;
-        this.width = width;
+        public double Length;
+        public double Width;
+        public Rectangle(double Length, double Width)
+        {
+            this.length = Length;
+            this.Width = Width;
+        }
+        public override void GetArea()
+        {
+            Console.WriteLine("Area of Rectangle :" + length * width);
+        }
     }
-    public override void getArea()
-    {
-       Console.WriteLine("Area of Rectangle :" + length * width);
-    }
-}
 
 }

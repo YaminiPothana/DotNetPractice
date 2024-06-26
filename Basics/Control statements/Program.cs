@@ -64,18 +64,18 @@ namespace forloop
 
 
 
-    //class Program1
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //        int number = 1;
-    //        do
-    //        {
-    //            Console.Write($"{number} ");
-    //            number++;
-    //        } while (number <= 5);
+    class Program1
+    {
+        static void Main(string[] args)
+        {
+            int number = 1;
+            do
+            {
+                Console.Write($"{number} ");
+                number++;
+            } while (number <= 5);
 
-    //        Console.ReadKey();
-    //    }
-    //}
+            Console.ReadKey();
+        }
+    }
 }

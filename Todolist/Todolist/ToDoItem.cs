@@ -13,6 +13,6 @@
 
     public override string ToString()
     {
-        return $"{Id}. {Description} - {(IsCompleted ? "Completed" : "Not Completed")}";
+        return $"{Id}.{Description} - {(IsCompleted ? "Completed" : "Not Completed")}";
     }
 }

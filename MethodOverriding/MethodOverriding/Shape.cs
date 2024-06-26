@@ -8,7 +8,7 @@ namespace MethodOverriding
 {
     abstract class Shape
     {
-        abstract public void getArea();
+        abstract public void GetArea();
     }
 
 }

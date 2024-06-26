@@ -2,18 +2,18 @@
 
 namespace MethodOverriding
 {
-    class SCRT_MAIN
+    class Program
     {
-        public static void printArea(Shape shape)
+        public static void PrintArea(Shape shape)
         {
-            shape.getArea();
+            shape.GetArea();
         }
         public static void Main(String[] args)
         {
             Console.WriteLine("Main Starts");
-            printArea(new Circle(6));
-            printArea(new Rectangle(4.0, 6.0));
-            printArea(new Triangle(2, 8));
+            PrintArea(new Circle(6));
+            PrintArea(new Rectangle(4.0, 6.0));
+            PrintArea(new Triangle(2, 8));
             Console.WriteLine("Main Ends");
         }
     }
